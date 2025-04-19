@@ -45,7 +45,7 @@ BuyNest/ │ ├── frontend/ # React.js Frontend │ ├── public/ │ �
 
 ### 1. Clone the repository
 
-```bash
+bash
 git clone https://github.com/yourusername/buynest.git
 cd buynest
 
@@ -60,27 +60,32 @@ cd backend
 ---
 
 ## 📸 Screenshots
-User Register Page
+
+## User Register Page
 ![UserRegisterPage](https://github.com/user-attachments/assets/a8d429a9-85d2-4dab-b5dc-1838d0c62208)
 
 ---
 
-User Login Page
+## User Login Page
+
 ![User Login Page](https://github.com/user-attachments/assets/38a6489e-0ef2-4cc5-a10a-76d4cc88bc6c)
 
 ---
 
-UserHomePage
+## UserHomePage
+
 ![user customer page](https://github.com/user-attachments/assets/d4525128-e9ef-472c-8152-43043abf66e3)
 
 ---
 
-UserOrderPage
+## UserOrderPage
+
 ![OrderPage](https://github.com/user-attachments/assets/63362dda-4709-4e7a-a315-f1e144f0243c)
 
 ---
 
-UserPaymentPage
+## UserPaymentPage
+
 ![PaymentPage](https://github.com/user-attachments/assets/9422db5e-7f91-4ed6-89ba-886204d67f17)
 
 ---
