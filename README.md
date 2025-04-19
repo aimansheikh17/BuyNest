@@ -78,6 +78,11 @@ cd backend
 
 ---
 
+## UserCartPage
+
+![UserCartPage](https://github.com/user-attachments/assets/b3e8b2b4-b648-448b-a914-7c755b4015f4)
+
+
 ## UserOrderPage
 
 ![OrderPage](https://github.com/user-attachments/assets/63362dda-4709-4e7a-a315-f1e144f0243c)
@@ -90,11 +95,14 @@ cd backend
 
 ---
 
-AdminLoginPage
+## AdminLoginPage
+
 ![AdminLoginPage](https://github.com/user-attachments/assets/00713626-ec14-4ef3-b2eb-7b7c66691f9f)
 
+---
 
-AdminDashboard
+## AdminDashboard
+
 ![adminDashboard](https://github.com/user-attachments/assets/2858a321-f010-4a09-8f41-312c1d2d7999)
 
 
