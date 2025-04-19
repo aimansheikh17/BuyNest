@@ -1,0 +1,91 @@
+ /* Background Styling */
+ 
+
+ /* Page Container */
+.page-container1 {
+    background: url('../assets/6.360_f_117332203.jpg') no-repeat center top;
+    background-size: cover;
+    background-position: center top; /* Moves image upwards */
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Form Container */
+.form-container1 {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Title */
+.form-title1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+/* Form Fields */
+.form-group1 {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-label1 {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-input1 {
+    width: 100%;
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: white;
+}
+
+/* Sign In Button */
+.form-button18 {
+    width: 200px;
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+   background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.form-button18:hover {
+    background-color: #0a5ca1;
+}
+
+/* Footer Link */
+.form-footer1 {
+    margin-top: 10px;
+}
+
+.form-link1 {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.form-link1:hover {
+    text-decoration: underline;
+}

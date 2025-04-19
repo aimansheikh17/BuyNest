@@ -1,0 +1,50 @@
+ /* Blue Navigation Bar */
+.header {
+    background-color: #1e90ff; /* Blue */
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Logo */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .logo span {
+    font-style: italic;
+    font-weight: normal;
+  }
+  
+  /* Cart & Profile */
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .cart-icon {
+    cursor: pointer;
+  }
+  
+  .profile-dropdown {
+    cursor: pointer;
+    color: yellow;
+  }
+  

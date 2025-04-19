@@ -1,0 +1,130 @@
+/* General styles */
+.admin-dashboard {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  /* Header */
+  .dashboard-header {
+    background-color: #1f2937; /* Dark gray */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-header .user-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .dashboard-header .username {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .dashboard-header .dropdown-button {
+    background-color: #ef4444; /* Red */
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dashboard-header .dropdown-button:hover {
+    background-color: #dc2626;
+  }
+  
+  /* Main content */
+  .dashboard-content {
+    flex: 1;
+    padding: 2rem;
+  }
+  
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+    margin-left: 150px;
+  }
+  
+  /* Card styles */
+  .card {
+    background-color: #053b4a;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    padding: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .card-description {
+    font-size: 0.95rem;
+    color: #ffffff;
+  }
+  
+  .card-team {
+    font-size: 0.85rem;
+    color: #ffffff;
+    margin-top: 0.5rem;
+    font-style: italic;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive Modal Overrides (Optional) */
+  @media (max-width: 600px) {
+    .card-content {
+      font-size: 0.9rem;
+    }
+  
+    .card-title {
+      font-size: 1.1rem;
+    }
+  
+    .dashboard-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+  
+    .dashboard-header .user-info {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  

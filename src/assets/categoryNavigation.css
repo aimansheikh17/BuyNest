@@ -1,0 +1,32 @@
+/* Category Navigation Bar */
+.category-navigation {
+  background-color: black; /* Black background */
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Category List */
+.category-list {
+  display: flex;
+  justify-content: center;
+  gap: 200px; /* Space between categories */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Category Items */
+.category-item {
+  color: white; /* White text */
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.category-item:hover {
+  color: #1e90ff; /* Blue color on hover */
+}
+
+  
